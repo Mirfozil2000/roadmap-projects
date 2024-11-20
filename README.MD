@@ -11,3 +11,4 @@
 - [x] [Accessible-Form-Ui](https://roadmap.sh/projects/accessible-form-ui)
 - [x] [Image-Grid-Layout](https://roadmap.sh/projects/image-grid)
 - [x] [Tooltip-Ui](https://roadmap.sh/projects/tooltip-ui)
+- [x] [Simple-Tabs](https://roadmap.sh/projects/simple-tabs)
