@@ -12,3 +12,4 @@
 - [x] [Image-Grid-Layout](https://roadmap.sh/projects/image-grid)
 - [x] [Tooltip-Ui](https://roadmap.sh/projects/tooltip-ui)
 - [x] [Simple-Tabs](https://roadmap.sh/projects/simple-tabs)
+- [x] [Cookies-Consent](https://roadmap.sh/projects/cookie-consent)
