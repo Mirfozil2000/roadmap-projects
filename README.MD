@@ -9,3 +9,4 @@
 - [x] [Testimonial-cards](https://roadmap.sh/projects/testimonial-cards)
 - [x] [Datepicker-UI](https://roadmap.sh/projects/datepicker-ui)
 - [x] [Accessible-form-ui](https://roadmap.sh/projects/accessible-form-ui)
+- [x] [Image-Grid-Layout](https://roadmap.sh/projects/image-grid)
