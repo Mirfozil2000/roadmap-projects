@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>GitHub Random Repository Finder</title>
+</head>
+<body>
+  <div class="container">
+    <h1>GitHub Random Repository Finder</h1>
+    
+    <!-- Dropdown for selecting a programming language -->
+    <div class="dropdown">
+      <button class="dropdown-btn">Select Language</button>
+      <div class="dropdown-content" id="dropdown-content">
+        <!-- Options populated by JavaScript -->
+      </div>
+    </div>
+
+    <!-- Display area for the repository details -->
+    <div id="repo-details" class="repo-details">
+      <!-- Repository information will appear here -->
+    </div>
+
+    <!-- Button to fetch a new repository -->
+    <button id="refresh-btn" class="refresh-btn" style="display: none;">Refresh</button>
+  </div>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
