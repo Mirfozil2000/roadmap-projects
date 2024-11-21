@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .input-container button {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .todo-list {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .todo-item.completed span {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  .todo-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  /* Общий контейнер списка */
+.todo-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  /* Элемент списка */
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* Последний элемент без линии */
+  .todo-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Чекбокс */
+  .todo-item input[type="checkbox"] {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  /* Текст задачи */
+  .todo-item span {
+    flex-grow: 1;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #333;
+    word-break: break-word; /* Чтобы текст не вылезал за границы */
+  }
+  
+  /* Зачёркнутый текст выполненных задач */
+  .todo-item .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  /* Кнопка удаления */
+  .todo-item button {
+    background-color: #ff5c5c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Анимация при наведении на кнопку удаления */
+  .todo-item button:hover {
+    background-color: #ff3b3b;
+  }
+  
+  /* Заголовок */
+  .todo-container h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Ввод нового задания */
+  .todo-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Кнопка добавления задачи */
+  .todo-container button.add-task {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  /* Анимация при наведении на кнопку добавления */
+  .todo-container button.add-task:hover {
+    background-color: #45a049;
+  }
+  
