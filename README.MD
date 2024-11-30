@@ -22,3 +22,4 @@
 - [x] [Github-Random-Repo](https://roadmap.sh/projects/github-random-repo)
 - [x] [Reddit-Client](https://roadmap.sh/projects/reddit-client)
 - [x] [Temperature-Converter](https://roadmap.sh/projects/temperature-converter)
+- [x] [Pomodoro-Timer](https://roadmap.sh/projects/pomodoro-timer)
