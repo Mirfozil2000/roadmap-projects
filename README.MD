@@ -19,4 +19,5 @@
 - [x] [Flash-Cards](https://roadmap.sh/projects/flash-cards)
 - [x] [Custom-Dropdown](https://roadmap.sh/projects/custom-dropdown)
 - [x] [Task-Tracker](https://roadmap.sh/projects/task-tracker-js)
-- [x] [Github-Random-Repo](https://roadmap.sh/projects/github-random-repo/solutions)
+- [x] [Github-Random-Repo](https://roadmap.sh/projects/github-random-repo)
+- [x] [Reddit-Client](https://roadmap.sh/projects/reddit-client)
